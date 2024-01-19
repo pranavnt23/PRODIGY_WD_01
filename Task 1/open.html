@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+    <title>BookmyTrip-Keep Riding</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body class="homebackground">
+<div class="homehead">
+<center class="headtxt">
+    BookmyTrip
+</center>
+</div><br><br><br>
+<center>
+    
+    <div>
+        <img src="image1.jpg" class="hompageimage" height=30% width=30%>
+    </div>
+<head>
+    <title>Ride Rates</title>
+    <style>
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        select {
+            width: 200px;
+            padding: 5px;
+        }
+        input[type="submit"] {
+            margin-top: 10px;
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="aboutdiv">
+    <h2>Book Your Ride</h2>
+    <form method="POST" action="get_rate.php">
+        <label for="fromLocation">From Location:</label>
+        <select id="fromLocation" name="fromLocation">
+            <option value="" selected disabled>Select location</option>
+            <option name="coimbatore">Coimbatore</option>
+            <option name="chennai">Chennai</option>
+            <option name="trichy">Trichy</option>
+        </select>
+        <br><br>
+        <label for="toLocation">To Location:</label>
+        <select id="toLocation" name="toLocation">
+            <option value="" selected disabled>Select location</option>
+            <option name="coimbatore">Coimbatore</option>
+            <option name="chennai">Chennai</option>
+            <option name="trichy">Trichy</option>
+        </select>
+        <br><br><br>
+        <input type="submit" class="loginbutton" value="Get Rate">
+    </form>
+</div>
+
+<div class="aboutdiv">
+    <pre>About Us
+
+        BookmyTrip is an online bus ticket booking website based 
+        in Tirupur. TN. Our mission is to make travel easy and 
+        accessible for everyone.
+        We offer a user-friendly platform with a wide range
+        of bus operators and routes to choose from.
+        Book your tickets hassle-free and 
+        enjoy a comfortable journey with BookmyTrip.
+    </pre>
+</div></center>
+<div class="homepagebottom">
+<center>
+BookmyTrip<br><br><br>
+<img src="fb.png" height="20px">&nbsp;&nbsp;<i style="font-size: 25px;">BookmyTrip </i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="insta.png" height="20px">&nbsp;&nbsp;<i style="font-size: 25px;">BookmyTrip </i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="twit.png" height="20px">&nbsp;&nbsp;<i style="font-size: 25px;">BookmyTrip </i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</center>
+</div>
+</body>
+</html>
